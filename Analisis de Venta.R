@@ -13,7 +13,7 @@ library(SHAPforxgboost)
 library(data.table)
 
 
-## PREDICCION DE VENTAS
+## PREDICCION DE VENTAS (error del 11.27%)
 
 #Carga del dataset
 
@@ -110,7 +110,7 @@ head(comparacion, 20)
 
 
 
-## RIESGO DE ABANDONO DE CLIENTE
+## RIESGO DE ABANDONO DE CLIENTE (Accuracy : 0.8152)
 
 df <- read.csv("C:/Users/User/OneDrive/Soldamundo Peru/R Studio/Compras a 6 M.csv", fileEncoding = "Latin1", sep = ";")
 setDT(df)
